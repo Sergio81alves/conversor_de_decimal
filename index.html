@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decimal</title>
+
+    <!--estilo-->
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <main>
+        <h2>Por favor colocar números </h2>
+        <input id="numeros" maxlength="8" type="text" placeholder="Digite um número">
+         <button type="submit" onclick="verificarNumeros()">Transformar 🔃</button>
+
+        <h2>Esse é o resultado em binario</h2>
+        <div class="juntos">
+            <input id="resultado"  disabled="disabled"> 
+            <button id="lim" onclick="limpa()">✖️</button>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
